@@ -1,0 +1,98 @@
+body{
+  background-image: url("background.jpg");
+  background-size: 100% 100%;
+  overflow: hidden;
+}
+html{
+  height: 100%;
+}
+.overlay{
+    background: rgba(0, 0, 0, 0.5);
+    width: 850px;
+    border-radius: 25px;
+    height: 620px;
+}
+.page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.contain-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:10px
+}
+.img-title{
+  width: 200px;
+}
+.taking{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+.title{
+  color:#00ff00;
+
+}
+.title-button {
+    background-color: #00ff00;
+    width: 80%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+  font-size: 10px;
+
+}
+.square {
+    width: 10px;
+    background: white;
+    height: 10px;
+}
+.mini-title{
+    margin-left: 10%;
+    margin-top: 2%;
+}
+.mini-title-title {
+    display: flex;
+    align-items: center;
+}
+
+.subtitle {
+    font-size: 20px;
+    color: white;
+    margin-left: 6px;
+}
+.write{
+  color:white;
+}
+.bar {
+    height: 20px;
+    background: yellow;
+    width: 40%;
+    border: none;
+    display: inline-flex;
+    border-radius: 5px;
+}
+.bar2 {
+    height: 20px;
+    background: #00ff00;
+    width: 80%;
+    border: none;
+    display: inline-flex;
+    border-radius: 5px;
+}
+.bar3 {
+    height: 20px;
+    background: red;
+    width: 20%;
+    border: none;
+    display: inline-flex;
+    border-radius: 5px;
+}
